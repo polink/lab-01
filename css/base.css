@@ -3,5 +3,6 @@ body * {
   background-color:bisque;
  box-sizing: border-box;
  border: 2px solid orangered;
+ text-align: center;
 }
 
