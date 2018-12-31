@@ -1,8 +1,15 @@
-body * {
-  font-family: sans-serif;
-  background-color:bisque;
- box-sizing: border-box;
- border: 2px solid orangered;
- text-align: center;
+* {
+  box-sizing: border-box;
+  text-align: center;
 }
 
+body {
+  width: 480px;
+  font-family: sans-serif;
+}
+
+@media(min-width: 768px){
+  body {
+    width: 960px;
+  }
+}

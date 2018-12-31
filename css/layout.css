@@ -1,118 +1,82 @@
-/* @media Rule */
-@media ( max-height: 767px) and (max-width: 480px) {
+div {
+  float: left;
+  border: 1px solid white;
+  background: orange;
+  width: 100%;
 }
-  nav {
-    height: 100px;
-    width: 960px;
-    line-height: 100px;
-  }
-  #b {
+
+p {
+  /* display: flex; */
+  /* top: 50%; */
+  height: 100px;
+  /* margin-top: 50; */
+  /* line-height: 50%; */
+  /* align-items: stretch; */
+}
+
+.a {
+  height: 75px;
+}
+
+.b {
+  height: 150px;
+}
+
+.c {
+  height: 125px;
+}
+
+.d {
+  height: 125px;
+}
+
+.e, .f, .g, .h {
+  height: 250px;
+  width: 240px;
+}
+
+.i {
+  height: 80px;
+}
+
+@media(min-width: 768px){
+  div {
     float: left;
+    border: 1px solid white;
+    background: orange;
+    width: 100%;
+    line-height: 100%;
+  }
+
+
+  .a {
+    height: 75px;
+    /* padding: 30px; */
+  }
+  
+  .b {
     height: 600px;
     width: 200px;
-    line-height: 600px;
   }
-  #c {
+  
+  .c {
     height: 200px;
     width: 380px;
-    line-height: 190px;
   }
-  #d {
-    float: left;
+  
+  .d {
     height: 200px;
     width: 380px;
-    line-height: 200px;
   }
-  #e {
-    float: left;
+  
+  .e, .f, .g, .h {
     height: 250px;
     width: 190px;
-    line-height: 250px;
   }
-  #f {
-    float: left;
-    height: 250px;
-    width: 190px;
-    line-height: 250px;
-  }
-  #g {
-    float: left;
-    height: 250px;
-    width: 190px;
-    line-height: 250px;
-    
-  }
-  #h {
-    float: left;
-    height: 250px;
-    width: 190px;
-    line-height: 250px;
-  }
-  footer {
+  
+  .i {
     height: 150px;
-    width: 760px;
-    line-height: 150px;
+    width:760px;
   }
-.clear {
-  border: none;
-}
-article {
-  display: inline;
-}
-
-/* Media for larger devices */
-@media only screen and (min-width: 960px) and (max-height: 768px){
-
-  nav {
-    height: 75px;
-    width: 403px;
-  }
-  #b {
-    height: 150px;
-    width: 403px;
    
-  }
-  #c {
-    height: 125px;
-    width: 403px;
-  }
-  #d {
-    float: left;
-    height: 125px;
-    width: 403px;
-  }
-  #e {
-    float: left;
-    height: 250px;
-    width: 201px;
-  }
-  #f {
-    float: left;
-    height: 250px;
-    width: 201px;
-  }
-  #g {
-    float: left;
-    height: 250px;
-    width: 201px;
-    
-  }
-  #h {
-    float: left;
-    height: 250px;
-    width: 201px;
-    
-  }
-  footer {
-    height: 80px;
-    width: 403px;
-    
-  }
-.clear {
-  border: none;
-}
-article {
-  display: inline;
-}
-
 }
